@@ -1,0 +1,8 @@
+ FilterTwoPole.ccp has error when compiling
+ //analogWrite(10,osc.output() ); // hardcoded the dial pin i
+
+
+This code comes from ganesh and the testing in zug. is the conversion /4 still necessary if i adjust the gain multiplier?
+ sprintf(linebuf_all,
+"adc-value_0_1,%d,millivolt_0_1,%.5f",
+results_0_1,results_0_1 / 4);
